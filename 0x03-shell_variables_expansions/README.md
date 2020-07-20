@@ -19,7 +19,7 @@
 > This script lists all the local variables, environment variables, and functions in the shell.
 
 **6-create_local_variable**
-> This script creates a new local variable called ```BETTY``` with value ```Holberton```.
+> This script creates a new local variable called ```BETTY``` with value ```DHK```.
 
 **7-create_global_variable**
 > This script creates a new global variable called ```HOLBERTON``` with value ```Betty```.

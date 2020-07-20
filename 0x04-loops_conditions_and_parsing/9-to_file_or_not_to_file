@@ -1,19 +1,19 @@
 #!/usr/bin/env bash
-# Gives information about the holbertonschool file
+# Gives information about the dhkschool file
 
-if [ -e "holbertonschool" ]; then
-    echo "holbertonschool file exists"
-    if [ -s "holbertonschool" ]; then
-	echo "holbertonschool file is not empty"
+if [ -e "dhkschool" ]; then
+    echo "dhkschool file exists"
+    if [ -s "dhkschool" ]; then
+	echo "dhkschool file is not empty"
     else
-	echo "holbertonschool file is empty"
+	echo "dhkschool file is empty"
     fi
 
-    if [ -f "holbertonschool" ]; then
-	echo "holbertonschool is a regular file"
+    if [ -f "dhkschool" ]; then
+	echo "dhkschool is a regular file"
     fi
 
 else
-    echo "holbertonschool file does not exist"
+    echo "dhkschool file does not exist"
 
 fi

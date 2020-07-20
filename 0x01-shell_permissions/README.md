@@ -40,16 +40,16 @@
 > This script adds ```execute``` permission to all subdirectories of current directory for the owner, group owner, and all other users, where regular files should not be changed
 
 **12-directory_permissions**
-> This script creates a directory called ```dir_holberton``` with permissions ```751``` in the working directory
+> This script creates a directory called ```dir_dhk``` with permissions ```751``` in the working directory
 
 **13-change_group**
-> This script changes group owner to ```holberton``` for the file ```hello```
+> This script changes group owner to ```dhk``` for the file ```hello```
 
 **14-change_owner_and_group**
-> This script changes owner to ```betty``` and the group owner to ```holberton``` for all files and directories in the working directory
+> This script changes owner to ```betty``` and the group owner to ```dhk``` for all files and directories in the working directory
 
 **15-symbolic_link_permissions**
-> This script changes owner and group owner of the ```file _hello```, which is a symbolic link, to ```betty``` and ```holberton``` respectively
+> This script changes owner and group owner of the ```file _hello```, which is a symbolic link, to ```betty``` and ```dhk``` respectively
 
 **16-if_only**
 > This script changes owner of the file ```hello``` to ```betty``` only if it is owned by the user ```guillaume```
@@ -59,5 +59,5 @@
 **100-Star_Wars**
 > This script plays the Linux terminal Star Wars IV animation.
 
-**101-man_holberton**
-> This is a created manual (```man```) page that matched a picture supplied on the ```holberton``` intranet portal
+**101-man_dhk**
+> This is a created manual (```man```) page that matched a picture supplied on the ```dhk``` intranet portal

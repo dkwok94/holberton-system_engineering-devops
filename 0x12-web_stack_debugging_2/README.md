@@ -36,4 +36,4 @@ nginx      887  0.0  0.0  77712  3180 ?        S    19:16   0:00  \_ nginx: work
 nginx      888  0.0  0.0  77712  3208 ?        S    19:16   0:00  \_ nginx: worker process
 ```
 
-2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [Holberton School](https://www.holbertonschool.com/)
+2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [DHK School](https://www.dhkschool.com/)

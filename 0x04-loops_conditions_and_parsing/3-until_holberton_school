@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-# Prints "Holberton School" 10 times using the until loop
+# Prints "DHK School" 10 times using the until loop
 
 i=0
 
 until [ $i -eq 10 ]; do
-      echo "Holberton School"
+      echo "DHK School"
       i=$((i+1))
 done

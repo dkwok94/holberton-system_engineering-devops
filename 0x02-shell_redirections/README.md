@@ -22,7 +22,7 @@
 > This script displays the third line in a file called ```iacta``` which will be generated in the working directory when the school checker is run.
 
 **7-file**
-> This script will create a file called ```\*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:)``` and will pass the text ```Holberton School``` into it followed by a new line character.
+> This script will create a file called ```\*\\'"DHK School"\'\\*$\?\*\*\*\*\*:)``` and will pass the text ```DHK School``` into it followed by a new line character.
 
 **8-cwd_state**
 > This script will write the result of the command ```ls -la``` to a file called ```ls_cwd_content```. It will create this file if it does not exist and will overwrite it if it does.

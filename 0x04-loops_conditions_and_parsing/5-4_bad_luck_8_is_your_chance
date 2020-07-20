@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Loops from 1 to 10 and displays "bad luck" for the 4th iteration,
-# "good luck" for the 8th iteration, and "Holberton School" for others
+# "good luck" for the 8th iteration, and "DHK School" for others
 
 i=1
 
@@ -10,7 +10,7 @@ while [ $i -le 10 ]; do
       elif [ $i -eq 8 ]; then
 	 echo "good luck"
       else
-	 echo "Holberton School"
+	 echo "DHK School"
       fi
       i=$((i+1))
 done

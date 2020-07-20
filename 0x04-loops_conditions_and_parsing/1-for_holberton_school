@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# This script displays "Holberton School" 10 times
+# This script displays "DHK School" 10 times
 
 for _ in {1..10}; do
-    echo "Holberton School"
+    echo "DHK School"
 done

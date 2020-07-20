@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# Display "Holberton School" 10 times and displays "Hi" for the 9th iteration
+# Display "DHK School" 10 times and displays "Hi" for the 9th iteration
 
 i=0
 
 while [ $i -lt 10 ]; do
-      echo "Holberton School"
+      echo "DHK School"
       if [ $i -eq 8 ]; then
 	  echo "Hi"
       fi

@@ -46,7 +46,7 @@ $ ./1-world_wide_web derekkwok.online web-01
 The subdomain web-01 is a A record and points to 35.237.197.183
 ```
 
-**[2-haproxy_ssl_termination](2-haproxy_ssl_termination)** - Haproxy configuration file (`/etc/haproxy/haproxy.cfg`) that configures Haproxy to accept encrypted traffic on the subdomain `www.` where Haproxy must be listening on port TCP 443, Haproxy must be accepting SSL traffic, Haproxy must serve encrypted traffic that will return the root of the web server, and a query to the root of the domain should return a page containing `Holberton School`.
+**[2-haproxy_ssl_termination](2-haproxy_ssl_termination)** - Haproxy configuration file (`/etc/haproxy/haproxy.cfg`) that configures Haproxy to accept encrypted traffic on the subdomain `www.` where Haproxy must be listening on port TCP 443, Haproxy must be accepting SSL traffic, Haproxy must serve encrypted traffic that will return the root of the web server, and a query to the root of the domain should return a page containing `DHK School`.
 ```
 $ curl -sI https://www.derekkwok.online
 HTTP/1.1 200 OK
@@ -60,16 +60,16 @@ X-Served-By: 300-web-02
 Accept-Ranges: bytes
 
 $ curl -s https://www.derekkwok.online
-Holberton School for the win!
+DHK School for the win!
 ```
 
 ### Advanced
 **[100-redirect_http_to_https](100-redirect_http_to_https)** - Haproxy configuration file that configures Haproxy to automatically redirect http traffic to https. Haproxy should return a 301
 ```
-$ curl -sIL http://www.holberton.online
+$ curl -sIL http://www.dhk.online
 HTTP/1.1 301 Moved Permanently
 Content-length: 0
-Location: https://www.holberton.online/
+Location: https://www.dhk.online/
 Connection: close
 
 HTTP/1.1 200 OK
@@ -83,4 +83,4 @@ X-Served-By: 03-web-01
 Accept-Ranges: bytes
 ```
 
-2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [Holberton School](https://www.holbertonschool.com/)
+2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [DHK School](https://www.dhkschool.com/)

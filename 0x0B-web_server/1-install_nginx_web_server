@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # Installs NGINX
 # NGINX should be listening on port 80
-# When requesting a page with curl, it must return a page that contains "Holberton School"
+# When requesting a page with curl, it must return a page that contains "DHK School"
 
 sudo apt-get update
 sudo apt-get -y install nginx
-echo "Holberton School for the win!" | sudo tee /usr/share/nginx/html/index.html
+echo "DHK School for the win!" | sudo tee /usr/share/nginx/html/index.html
 sudo service nginx start

@@ -29,4 +29,4 @@ What is the main function of a firewall?
 **[1-block_all_incoming_traffic_but](1-block_all_incoming_traffic_but)** - confgures `ufw` so that it blocks incoming traffic from all ports except TCP 22, 443, and 80. These are the ufw commands used
 
 
-2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [Holberton School](https://www.holbertonschool.com/)
+2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [DHK School](https://www.dhkschool.com/)

@@ -11,7 +11,7 @@ def recurse(subreddit, hot_list=[], after=''):
     """
     url = 'https://www.reddit.com/r/{}/hot.json?after={}'.format(
         subreddit, after)
-    header = {'User-Agent': 'Derek@holberton'}
+    header = {'User-Agent': 'Derek@dhk'}
 
     req = requests.get(url, headers=header, allow_redirects=False)
     if req.status_code == 200:

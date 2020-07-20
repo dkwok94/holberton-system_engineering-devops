@@ -17,7 +17,7 @@ This project was about setting up a master-slave replica scheme in a MySQL datab
 **[0-mysql_configuration_primary](0-mysql_configuration_primary)** - The MySQL configuration file for the master server
 **[0-mysql_configuration_replica](0-mysql_configuration_replica)** - The MySQL configuration file for the slave/replica server
 ```
-ubuntu@web-01:~$ mysql -uholberton -p
+ubuntu@web-01:~$ mysql -udhk -p
 Enter password: 
 Welcome to the MySQL monitor.  Commands end with ; or \g.
 Your MySQL connection id is 1467
@@ -35,7 +35,7 @@ mysql> show master status;
 +------------------+----------+--------------------+------------------+
 | File             | Position | Binlog_Do_DB       | Binlog_Ignore_DB |
 +------------------+----------+--------------------+------------------+
-| mysql-bin.000009 |      107 | holberton          |                  |
+| mysql-bin.000009 |      107 | dhk          |                  |
 +------------------+----------+--------------------+------------------+
 1 row in set (0.00 sec)
 
@@ -130,12 +130,12 @@ ubuntu@03-web-01:~$ more backup.sql
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Current Database: `holberton`
+-- Current Database: `dhk`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `holberton` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `dhk` /*!40100 DEFAULT CHARACTER SET latin1 */;
 
-USE `holberton`;
+USE `dhk`;
 
 --
 -- Table structure for table `users`
@@ -159,4 +159,4 @@ ubuntu@03-web-01:~$ file 01-03-2017.tar.gz
 ubuntu@03-web-01:~$
 ```
 
-2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [Holberton School](https://www.holbertonschool.com/)
+2018 - All programs written by Derek Kwok ([@dlangshk](https://twitter.com/dlangshk)) at [DHK School](https://www.dhkschool.com/)
