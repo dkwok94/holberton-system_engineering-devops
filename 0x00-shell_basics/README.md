@@ -65,4 +65,4 @@
 ### Advanced/Optional Script Assignments
 
 **dhk.mgc**
-> This file is a magic file that can be used with the command ```file``` to detect ```DHK``` data files. ```DHK``` data files always contain the string ```HOLBERTON``` at offset 0.
+> This file is a magic file that can be used with the command ```file``` to detect ```DHK``` data files. ```DHK``` data files always contain the string ```DHK``` at offset 0.

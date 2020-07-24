@@ -3,6 +3,6 @@ WATER=$(echo $WATER | tr water 01234);
 STIR=$(echo $STIR | tr stir. 01234);
 WATER=$((5#$WATER));
 STIR=$((5#$STIR));
-HOLBERTON=$(($WATER+$STIR));
-echo $(printf "%o\n" $HOLBERTON) | tr 01234567 behlnort
+DHK=$(($WATER+$STIR));
+echo $(printf "%o\n" $DHK) | tr 01234567 behlnort
 echo $WATER $STIR

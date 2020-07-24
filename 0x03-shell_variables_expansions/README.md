@@ -22,7 +22,7 @@
 > This script creates a new local variable called ```BETTY``` with value ```DHK```.
 
 **7-create_global_variable**
-> This script creates a new global variable called ```HOLBERTON``` with value ```Betty```.
+> This script creates a new global variable called ```DHK``` with value ```Betty```.
 
 **8-true_knowledge**
 > This script prints the result of the addition of 128 with the value stored in an environment variable called ```TRUEKNOWLEDGE``` followed by a new line.
